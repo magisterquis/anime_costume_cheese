@@ -126,7 +126,7 @@ go build -ldflags '
         -X main.ID=kittens
         -X main.URL=https://10.114.0.5:4433/bots
         -X main.Interval=1m3s
-        -X main.LogLevel=DEBUG`
+        -X main.LogLevel=DEBUG'
 ```
 Though in practice `main.ID` is often better left unset.
 
