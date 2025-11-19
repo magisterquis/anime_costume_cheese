@@ -143,7 +143,6 @@ func (b *Beaconer) sl() *slog.Logger {
 // beaconOnce makes a single beacon.
 func (b *Beaconer) beaconOnce(ctx context.Context) {
 	sl := b.sl().With("ctr", b.ctr.Add(1))
-	sl.Debug("Here")
 
 	/* Grab tasking, if we have it. */
 	tctx, cancel := context.WithTimeout(ctx, TaskMaxTime)
