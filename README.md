@@ -48,7 +48,7 @@ Quickstart
 2.  Build the library.
     ```sh
     # On the Victim
-    git clone github.com/magisterquis/anime_costume_cheese && cd anime_costume_cheese
+    git clone https://github.com/magisterquis/anime_costume_cheese.git && cd anime_costume_cheese
     CGO_CFLAGS='-DSREM_CGO_START_FLAGS=SREM_SRS_UNLINK|SREM_SRS_RMELF' \
     go build \
           -trimpath \
